@@ -91,21 +91,21 @@ html {
 
 
 .imagemain  { 
-    width: 1340px; 
-    height: 680px; 
+    width: 95%; 
+    height: 680px;
     overflow: hidden;
     background-image: 
     url(../images/독도.jpg);
     
     background-repeat: no-repeat;
-    background-size: 1360px 680px;
+    background-size: 100% 680px;
     /*background-position: 0px 0px;
     background-repeat: repeat-x;*/
     border-radius: 5px;
      margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
-  margin-left: 20px;
+  margin-left: 2%;
    
 }
 /* 에니메이션 */
