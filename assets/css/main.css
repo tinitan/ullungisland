@@ -91,14 +91,14 @@ html {
 
 
 .imagemain  { 
-    width: 340px; 
-    height: 560px; 
+    width: 1340px; 
+    height: 680px; 
     overflow: hidden;
     background-image: 
-    url(../images/성인봉.jpg);
+    url(../images/독도.jpg);
     
     background-repeat: no-repeat;
-    background-size: 360px 560px;
+    background-size: 1360px 680px;
     /*background-position: 0px 0px;
     background-repeat: repeat-x;*/
     border-radius: 5px;
@@ -111,61 +111,61 @@ html {
 /* 에니메이션 */
 .imagemain:after { 
     content:'';
-    width: 250px; 
-    height: 360px; 
+    width: 340px; 
+    height: 560px; 
    
     background-image: 
-    url(../images/풍등.png);
+    url(../images/갈매기.png);
     background-repeat: no-repeat;
     background-size: 340px 560px;
     /*background-position: 0px 0px;
     background-repeat: repeat-x;*/
     border-radius: 5px;
    position:absolute;
-   /*-webkit-transition: 0.3s;  /* cubic-bezier(0,.43,1,0); /*captured 포시 */
-      -webkit-animation-delay: -2s!important;
-      -webkit-transform:scale(0.1);  
+      -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      -webkit-animation-delay: -1s!important;
+      -webkit-transform:scale(0.05);  
       -webkit-animation-name: movingPara;
-      -webkit-animation-duration: 4s;
+      -webkit-animation-duration: 3s;
       -webkit-animation-iteration-count: infinite;
 
       /*transition: 0.3s;  /* cubic-bezier(0,.43,1,0); /*captured 포시 */
       transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      animation-delay: 5s!important;
-      transform:scale(0.1);
+      animation-delay: -1s!important;
+      transform:scale(0.05);
       animation-name: movingPara;
-      animation-duration: 24s;
+      animation-duration: 3s;
       animation-iteration-count: infinite;
 }
  @-webkit-keyframes movingPara {
   
-      0% { margin-left :10%; margin-top: 80%; transform: scale(0.8); opacity : 0;} 
-      10%{  margin-left :12.5%; margin-top: 60%; transform: scale(0.6);opacity : 1.0;}
-      20%{  margin-left :15%; margin-top: 55%;}
-      30% {  margin-left : 20%; margin-top: 50%;}
-      40% {  margin-left : 25%; margin-top: 45%;}
-      50% {   margin-left: 25%;margin-top: 35%; }
-      60% {  margin-left: 35%;margin-top: 25%; transform: scale(0.1); }
-      80% {  margin-left: 40%;margin-top: 10%;  }
-      90% {  margin-left: 45%;margin-top: -15%;  }
-      95% {  margin-left: 55%; margin-top: -30%; opacity : 0.5;}
-      100% {   margin-left: 60%;margin-top: -50%; opacity : 0;}
+      0% { margin-left :10%; margin-top: 10%; transform: scale(0.1); opacity : 0;} 
+      10%{  margin-left :20%; margin-top: 11%; transform: scale(0.1);opacity : 1.0;}
+      20%{  margin-left :25%; margin-top: 12%;}
+      30% {  margin-left : 35%; margin-top: 13%;}
+      40% {  margin-left : 40%; margin-top: 12%;}
+      50% {   margin-left: 45%;margin-top: 11%; }
+      60% {  margin-left: 55%;margin-top: 10%; transform: scale(0.1); }
+      80% {  margin-left: 65%;margin-top: 10%;  }
+      90% {  margin-left: 75%;margin-top: 11%;  }
+      95% {  margin-left: 85%; margin-top: 12%; opacity : 0.5;}
+      100% {   margin-left: 100%;margin-top: 11%; opacity : 0;}
       
     }
     
  @keyframes movingPara {
 
-      0% { margin-left :10%; margin-top: 80%; transform: scale(0.8); opacity : 0;} 
-      10%{  margin-left :12.5%; margin-top: 60%; transform: scale(0.6);opacity : 1.0;}
-      20%{  margin-left :15%; margin-top: 55%;}
-      30% {  margin-left : 20%; margin-top: 50%;}
-      40% {  margin-left : 25%; margin-top: 45%;}
-      50% {   margin-left: 25%;margin-top: 35%; }
-      60% {  margin-left: 35%;margin-top: 25%; transform: scale(0.1); }
-      80% {  margin-left: 40%;margin-top: 10%;  }
-      90% {  margin-left: 45%;margin-top: -15%;  }
-      95% {  margin-left: 55%; margin-top: -30%; opacity : 0.5;}
-      100% {   margin-left: 60%;margin-top: -50%; opacity : 0;}
+      0% { margin-left :10%; margin-top: 10%; transform: scale(0.1); opacity : 0;} 
+      10%{  margin-left :20%; margin-top: 11%; transform: scale(0.1);opacity : 1.0;}
+      20%{  margin-left :25%; margin-top: 12%;}
+      30% {  margin-left : 35%; margin-top: 13%;}
+      40% {  margin-left : 40%; margin-top: 12%;}
+      50% {   margin-left: 45%;margin-top: 11%; }
+      60% {  margin-left: 55%;margin-top: 10%; transform: scale(0.1); }
+      80% {  margin-left: 65%;margin-top: 10%;  }
+      90% {  margin-left: 75%;margin-top: 11%;  }
+      95% {  margin-left: 85%; margin-top: 12%; opacity : 0.5;}
+      100% {   margin-left: 100%;margin-top: 11%; opacity : 0;}
       
     }
  /* 에니메이션 끝 */   
