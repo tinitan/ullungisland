@@ -92,7 +92,7 @@ html {
 
 .imagemain  {
 
-    width: auto%; 
+    width: auto; 
     height: 300px;
     /*overflow: hidden;*/
     background-image: 
@@ -112,13 +112,13 @@ html {
 /* 에니메이션 */
 .imagemain:after { 
     content:'';
-    width: 340px; 
-    height: 560px; 
+    width: 200px; 
+    height: 300px; 
    
     background-image: 
     url(../images/갈매기.png);
     background-repeat: no-repeat;
-    background-size: 340px 560px;
+    background-size: contain;
     /*background-size: 340px 560px;
     /*background-position: 0px 0px;
     background-repeat: repeat-x;*/
@@ -142,9 +142,9 @@ html {
  @-webkit-keyframes movingPara {
     
     0% { margin-left :-10%; margin-top: -17%; transform: scale(0.1); opacity : 0;} 
-      10%{  margin-left :0%; margin-top: -16%; transform: scale(0.1);opacity : 1.0;}
+      10%{  margin-left :0%; margin-top: -16%; transform: scale(0.2);opacity : 1.0;}
       
-      95% {  margin-left: 45%; margin-top: -15%; opacity : 1.0;}
+      95% {  margin-left: 45%; margin-top: -15%; transform: scale(0.2); opacity : 1.0;}
       100% {   margin-left: 50%;margin-top: -18%; opacity : 0;}
             
     }
@@ -152,9 +152,9 @@ html {
  @keyframes movingPara {
 
       0% { margin-left :-10%; margin-top: -17%; transform: scale(0.1); opacity : 0;} 
-      10%{  margin-left :0%; margin-top: -16%; transform: scale(0.1);opacity : 1.0;}
+      10%{  margin-left :0%; margin-top: -16%; transform: scale(0.2); opacity : 1.0;}
       
-      95% {  margin-left: 45%; margin-top: -15%; opacity : 1.0;}
+      95% {  margin-left: 45%; margin-top: -15%; transform: scale(0.2);opacity : 1.0;}
       100% {   margin-left: 50%;margin-top: -18%; opacity : 0;}
       
     }
