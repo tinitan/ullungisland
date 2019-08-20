@@ -90,9 +90,10 @@ html {
 
 
 
-.imagemain  { 
-    width: 95%; 
-    height: 680px;
+.imagemain  {
+
+    width: auto%; 
+    height: 600px;
     /*overflow: hidden;*/
     background-image: 
     url(../images/독도.jpg);
