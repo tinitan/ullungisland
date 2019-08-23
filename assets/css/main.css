@@ -141,21 +141,21 @@ html {
 }
  @-webkit-keyframes movingPara {
     
-    0% { margin-left :-10%; margin-top: -37%; transform: scale(0.1); opacity : 0;} 
-      10%{  margin-left :0%; margin-top: -36%; transform: scale(0.2);opacity : 1.0;}
+    0% { margin-left :-10%; margin-top: -57%; transform: scale(0.1); opacity : 0;} 
+      10%{  margin-left :0%; margin-top: -56%; transform: scale(0.2);opacity : 1.0;}
       
-      95% {  margin-left: 60%; margin-top: -35%; transform: scale(0.2); opacity : 1.0;}
-      100% {   margin-left: 65%;margin-top: -38%; opacity : 0;}
+      95% {  margin-left: 60%; margin-top: -55%; transform: scale(0.2); opacity : 1.0;}
+      100% {   margin-left: 65%;margin-top: -58%; opacity : 0;}
             
     }
     
  @keyframes movingPara {
 
-      0% { margin-left :-10%; margin-top: -37%; transform: scale(0.1); opacity : 0;} 
-      10%{  margin-left :0%; margin-top: -36%; transform: scale(0.2); opacity : 1.0;}
+      0% { margin-left :-10%; margin-top: -57%; transform: scale(0.1); opacity : 0;} 
+      10%{  margin-left :0%; margin-top: -56%; transform: scale(0.2); opacity : 1.0;}
       
-      95% {  margin-left: 60%; margin-top: -35%; transform: scale(0.2);opacity : 1.0;}
-      100% {   margin-left: 65%;margin-top: -38%; opacity : 0;}
+      95% {  margin-left: 60%; margin-top: -55%; transform: scale(0.2);opacity : 1.0;}
+      100% {   margin-left: 65%;margin-top: -58%; opacity : 0;}
       
     }
  /* 에니메이션 끝 */   
