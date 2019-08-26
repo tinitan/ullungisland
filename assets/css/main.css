@@ -180,7 +180,7 @@ html {
 
  @-webkit-keyframes movingPara {
     
-    0% { margin-left :-30%; margin-top: -67%; transform: scale(0.1); opacity : 0;} 
+    0% { margin-left :-30%; margin-top: -67%; transform: scale(0.1); opacity : 1.0;} 
       10%{  margin-left :0%; margin-top: -66%; transform: scale(0.2);opacity : 1.0;}
       
       95% {  margin-left: 65%; margin-top: -65%; transform: scale(0.2); opacity : 1.0;}
@@ -190,7 +190,7 @@ html {
     
  @keyframes movingPara {
 
-      0% { margin-left :-30%; margin-top: -67%; transform: scale(0.1); opacity : 0;} 
+      0% { margin-left :-30%; margin-top: -67%; transform: scale(0.1); opacity : 1.0;} 
       10%{  margin-left :0%; margin-top: -66%; transform: scale(0.2); opacity : 1.0;}
       
       95% {  margin-left: 65%; margin-top: -65%; transform: scale(0.2);opacity : 1.0;}
