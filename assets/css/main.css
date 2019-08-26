@@ -116,7 +116,8 @@ html {
     height: 300px; 
    
     background-image: 
-    url(../images/갈매기.png);
+    url(../images/글자.png);
+
     background-repeat: no-repeat;
     background-size: contain;
     /*background-size: 340px 560px;
@@ -138,7 +139,43 @@ html {
       animation-name: movingPara;
       animation-duration: 3s;
       animation-iteration-count: infinite;
+
 }
+
+.imagemain:before { 
+    content:'';
+    width: 200px; 
+    height: 300px; 
+   
+    background-image: 
+    url(../images/갈매기.png);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-size: 340px 560px;
+    /*background-position: 0px 0px;
+    background-repeat: repeat-x;*/
+    border-radius: 5px;
+   position:absolute;
+      -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      -webkit-animation-delay: -1s!important;
+      -webkit-transform:scale(0.05);  
+      -webkit-animation-name: movingPara;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+
+      /*transition: 0.3s;  /* cubic-bezier(0,.43,1,0); /*captured 포시 */
+      transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      animation-delay: -1s!important;
+      transform:scale(0.05);
+      animation-name: movingPara;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+
+}
+
+
+
  @-webkit-keyframes movingPara {
     
     0% { margin-left :-10%; margin-top: -67%; transform: scale(0.1); opacity : 0;} 
