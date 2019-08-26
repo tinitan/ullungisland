@@ -117,14 +117,15 @@ html {
    
     background-image: 
     url(../images/글자.png);
-
+    
     background-repeat: no-repeat;
     background-size: contain;
     /*background-size: 340px 560px;
     /*background-position: 0px 0px;
     background-repeat: repeat-x;*/
-    border-radius: 5px;
+    /*border-radius: 5px;*/
    position:absolute;
+  
       -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
       -webkit-animation-delay: -1s!important;
       -webkit-transform:scale(0.05);  
@@ -155,8 +156,9 @@ html {
     /*background-size: 340px 560px;
     /*background-position: 0px 0px;
     background-repeat: repeat-x;*/
-    border-radius: 5px;
+    /*border-radius: 5px;*/
    position:absolute;
+   top : 5920px;
       -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
       -webkit-animation-delay: -1s!important;
       -webkit-transform:scale(0.05);  
