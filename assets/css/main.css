@@ -180,18 +180,18 @@ html {
 
 
  @-webkit-keyframes movingPara {
-     0% { left :-30%; margin-top: -67%; transform: scale(0.2); opacity : 1.0;} 
+     0% { left :-30%; margin-top: -60%; transform: scale(0.2); opacity : 1.0;} 
       
-      100% {  left: 100%; margin-top: -67%; transform: scale(0.2);opacity : 1.0;}
+      100% {  left: 100%; margin-top: -60%; transform: scale(0.2);opacity : 1.0;}
    
     }
     
     
  @keyframes movingPara {
 
-      0% { left :-30%; margin-top: -67%; transform: scale(0.2); opacity : 1.0;} 
+      0% { left :-30%; margin-top: -60%; transform: scale(0.2); opacity : 1.0;} 
       
-      100% {  left: 100%; margin-top: -67%; transform: scale(0.2);opacity : 1.0;}
+      100% {  left: 100%; margin-top: -60%; transform: scale(0.2);opacity : 1.0;}
    
     }
  /* 에니메이션 끝 */   
